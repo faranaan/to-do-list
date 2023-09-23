@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Righteous&display=swap');
+.gambar img{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+.judul-text{
+    display: flex;
+    justify-content: center;
+}
+.judul-text span{
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 27px;
+}
+.isi-text{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.isi-text span{
+    font-size: 20px;
+    width: 80%;
+}
+.start{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.start a{
+    width: 80%;
+    height: 30px;
+    padding-top: 10px;
+    background: linear-gradient(to right, #10d9b8, #19c0b8);
+    text-decoration: none;
+    font-family: Acme;
+    font-size: 15px;
+    color: white;
+}
